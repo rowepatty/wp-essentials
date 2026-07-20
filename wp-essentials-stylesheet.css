@@ -92,3 +92,87 @@ body {
     border-color: black;
     box-shadow: 100px;
 }
+
+.category-page {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 40px;
+}
+
+.category-section {
+    margin-bottom: 40px;
+}
+
+.category-heading {
+    font-size: 56px;
+    margin: 10px 0 20px 0;
+    color: black;
+    text-align: center;
+}
+
+.category-description {
+    width: 50%;
+    margin: 0 auto 40px auto;
+    text-align: center;
+}
+
+.category-title {
+    font-size: 24px;
+    margin: 0 0 15px 0;
+    color: black;
+}
+
+.product-row {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 15px;
+}
+
+.product-slot {
+    flex: 0 0 auto;
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+}
+
+.product-info {
+    flex: 0 0 150px;
+    width: 150px;
+    text-align: center;
+}
+
+.product-review {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    text-align: left;
+    font-size: 14px;
+    padding-left: 15px;
+    border-left: 1px solid black;
+}
+
+.product-image {
+    width: 100%;
+    aspect-ratio: 1;
+    background-color: lightgray;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    margin: 5px 0;
+    font-size: 16px;
+    color: black;
+}
+
+.product-price {
+    margin: 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
