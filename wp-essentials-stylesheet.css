@@ -183,9 +183,19 @@ body {
 }
 
 .blog {
-    width: 60%;
+    width: 51%;
     padding: 20px;
     margin-inline: auto;
+    font-family: Georgia, serif;
+}
+
+.blog h1 {
+    font-size: 48px;
+}
+
+.blog h3, .blog h4 {
+    font-size: 32px;
+    margin-bottom: 8px;
 }
 
 .blog-container {
@@ -237,4 +247,55 @@ body {
 
 html {
     scroll-behavior: smooth;
+}
+
+.blog p, .blog li {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.blog p {
+    margin: 0 0 40px 0;
+}
+
+.blog li {
+    margin-bottom: 12px;
+}
+
+.blog-list-start {
+    border-top: 3px solid black;
+}
+
+.contact-me {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 100px;
+}
+
+.contact-row {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.contact-box {
+    flex: 1 1 250px;
+    max-width: 320px;
+    border: 3px solid black;
+    box-sizing: border-box;
+    padding: 25px 20px;
+    text-align: center;
+}
+
+.contact-label {
+    font-size: 22px;
+    margin: 0 0 10px 0;
+    color: black;
+}
+
+.contact-box p {
+    margin: 0;
+    word-break: break-word;
 }
