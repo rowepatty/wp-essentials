@@ -181,3 +181,60 @@ body {
     font-weight: bold;
     color: black;
 }
+
+.blog {
+    width: 60%;
+    padding: 20px;
+    margin-inline: auto;
+}
+
+.blog-container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    gap: 0;
+}
+
+.content-id {
+    margin: 0;
+    padding: 20px;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.author-info {
+    color: gray;
+    font-style: italic;
+}
+
+.blog-list-container {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    gap: 0;
+    flex-direction: column;
+}
+
+.blog-list {
+    width: 60%;
+    padding: 20px;
+    margin-inline: auto;
+    max-width: 60%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    justify-content: center;
+}
+
+.blog a, .blog-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+html {
+    scroll-behavior: smooth;
+}
