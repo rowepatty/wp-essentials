@@ -13,14 +13,19 @@
 }
 
 .logo-box {
-    height: 120px;
-    aspect-ratio: 1.5;
+    height: 100%;
+    max-width: 100%;
     padding: 0px;
     margin: 0px;
-    color: white;
-    font-size: 20px;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    text-align: center;
+}
+
+.logo-box img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
 }
 
 .nav-box {
